@@ -1,7 +1,7 @@
 import React from "react";
 
 export interface EventData {
-  id: string; // Unique identifier for each event
+  id: string; 
   eventname: string;
   description: string;
   image: string;

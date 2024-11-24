@@ -33,7 +33,7 @@ export const DummyContent = () => {
           </div>
         ))
       ) : (
-        <p className="text-center text-white">No events available</p> // Fallback UI when mockData is empty
+        <p className="text-center text-white">No events available</p>
       )}
     </div>
   );
