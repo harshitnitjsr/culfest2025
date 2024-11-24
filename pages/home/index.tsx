@@ -6,6 +6,7 @@ import SliderHero from "@/components/SliderHero";
 
 // Dynamically import GSAP and Locomotive Scroll to prevent SSR issues
 // test
+// test 2
 const CursorEffect = dynamic(() => import("@/components/CursorEffect"), {
   ssr: false,
 });
