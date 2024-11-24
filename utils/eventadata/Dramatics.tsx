@@ -19,7 +19,7 @@ export const DummyContent1 = () => {
               <div className="relative bg-gradient-to-r bg-clip-text bg-no-repeat py-3 text-center text-5xl text-transparent text-yellow-600 md:text-6xl lg:text-7xl">
                 {item.eventname}
               </div>
-            </div> 
+            </div>
 
             <Image
               src={item.image}
