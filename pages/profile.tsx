@@ -3,6 +3,7 @@ import Head from "next/head";
 import ProfilePage from "../components/profilePage";
 import { useSession } from "next-auth/react";
 import axios from "axios";
+import { seededRandom } from "three/src/math/MathUtils";
 
 const Profile: React.FC = () => {
   const session = useSession();
@@ -33,7 +34,7 @@ const Profile: React.FC = () => {
     <div>
       {/* SEO and Metadata */}
       <Head>
-        <title>Profile</title>
+        <title>{session?.data?.user?.name?.toUpperCase()}</title>
         <meta name="description" content="Explore user details" />
         <link rel="icon" href="/culfest_logo.png" />
       </Head>
